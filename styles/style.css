@@ -5,21 +5,6 @@ body{
   margin: 0 auto;
   color: #fff;
 
-
-  img{
-    width: 55px;
-    height: 55px;
-    vertical-align: middle
-  }
-
-  ul{
-    list-style-type:none;
-    padding: 0;
-    font-size: 0px;
-    width: 100%;
-    border: 2px solid #fff;
-  }
-
 }
 
 .container{
@@ -28,54 +13,71 @@ body{
 }
 
 .header{
-  padding: 0 100px 0 100px;
   color: #fff;
   display: flex;
-  margin: 20px 0 20px 0;
   gap: 5px;
+  padding: 25px 115px 0 115px;
+  align-items: center;
 
   h1{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
   }
-  .sunrise{
-    width: 45px;
-    height: 35px;
+
+  .sunrise {
+    width: 32px;
+    height: 25px;
+    vertical-align: middle;
+    filter: saturate(1.5);
   }
 }
 
-.forecast{
-  padding: 0 100px 0 100px;
-  color: #fff;
-}
+main {
 
-ul{
-  background-color: white;
-  width: 100%;
-}
+  .forecast {
+    padding: 35px 108px;
+  }
 
-li{
-  display: inline-block;
-  text-align: center;
-  padding: 25px 10px 25px 10px;
-  font-size: 20px;
-  color: #fff;
-  margin: 1px;
+  ul {
+    border: 2px solid #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    color: #fff;
+
+    li {
+      text-align: center;
+      align-content: center;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      font-size: 22px;
+      height: 147px;
+      transition: all 0.3s ease-in;
+
+      img {
+        width: 32px;
+        height: 25px;
+        vertical-align: middle;
+      }
+    }
+  }
 }
 
 li:hover,
 :not(:hover)>li {
   cursor: pointer;
   filter: saturate(1.5);
-  transition: all 0.3s ease-in;
 }
 
-.footer{
+footer {
   background-color: #3399CC;
   align-content: center;
   height: 100%;
   padding: 0 100px 0 100px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 40px 0;
 }
 
 .lisbon {
@@ -143,4 +145,3 @@ li:hover,
   border: 2px solid #fff;
   width: 100%;
 }
-
