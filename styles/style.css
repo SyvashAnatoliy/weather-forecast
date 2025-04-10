@@ -1,4 +1,4 @@
-body{
+body {
   border: 25px solid #2B81AC;
   max-width: 1440px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,19 +7,18 @@ body{
 
 }
 
-.container{
+.container {
   background-color: #3399CC;
   align-content: center;
 }
 
-.header{
-  color: #fff;
+.header {
   display: flex;
   gap: 5px;
   padding: 25px 115px 0 115px;
   align-items: center;
 
-  h1{
+  h1 {
     font-weight: 400;
     font-size: 20px;
   }
@@ -27,8 +26,7 @@ body{
   .sunrise {
     width: 32px;
     height: 25px;
-    vertical-align: middle;
-    filter: saturate(1.5);
+
   }
 }
 
@@ -44,7 +42,6 @@ main {
     margin: 0;
     padding: 0;
     font-size: 0;
-    color: #fff;
 
     li {
       text-align: center;
@@ -66,14 +63,13 @@ main {
   }
 }
 
-li:hover,
-:not(:hover)>li {
-  cursor: pointer;
-  filter: saturate(1.5);
-}
+    li:hover,
+    :not(:hover)>li {
+      cursor: pointer;
+      filter: saturate(1.5);
+    }
 
 footer {
-  background-color: #3399CC;
   align-content: center;
   height: 100%;
   padding: 0 100px 0 100px;
